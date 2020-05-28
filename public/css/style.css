@@ -1,0 +1,162 @@
+body {
+	box-sizing: border-box;
+	background-image: url(https://images.unsplash.com/photo-1483794344563-d27a8d18014e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	font-family: 'Baloo Chettan 2';
+	height: 100%;
+}
+
+@font-face {
+	font-family: 'Baloo Chettan 2';
+	src: initial;
+}
+
+/*LOGIN_REGISTER*/
+
+#login-reg-cont {
+	font-family: 'Baloo Chettan 2' !important;
+}
+
+.login,
+.signup {
+	background-color: rgba(255, 255, 255, 0.61);
+	font-family: 'Baloo Chettan 2' !important;
+}
+
+input:focus {
+	outline: none;
+}
+
+.rg-text {
+	background-color: rgba(255, 255, 255, 0.61);
+	padding: 5px;
+	color: #444;
+	border-radius: 10px;
+	font-weight: 500;
+}
+
+/*WELCOME PAGE*/
+
+#welcome-cont {
+	margin: 10%;
+	background-color: rgba(255, 255, 255, 0.61);
+	padding: 7%;
+	border-radius: 10px;
+	text-align: center;
+	font-family: 'Baloo Chettan 2';
+}
+
+/*HOME*/
+
+#logout {
+	float: right;
+	color: white;
+	background-color: #eacb48;
+	height: 35px;
+	width: 70px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 35px;
+	border-radius: 2px;
+	margin-right: 5%;
+	font-family: 'Baloo Chettan 2';
+}
+
+#container {
+	margin: 2% auto;
+	width: 360px;
+	background-color: #eff0eb;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.completed {
+	color: gray;
+	text-decoration: line-through;
+}
+
+#todo-header {
+	background-color: #00a099;
+	color: #eff0eb;
+	padding: 0px 20px;
+	font-size: 34px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.fa-plus {
+	float: right;
+	color: #eff0eb;
+	padding: 8px 0;
+}
+
+.fa-plus:hover {
+	cursor: pointer;
+}
+
+ul {
+	list-style: none;
+	padding-inline-start: 0px;
+	margin: 0;
+}
+
+li {
+	height: 30px;
+	line-height: 30px;
+	color: #444;
+	list-style-position: inside;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+li:nth-child(2n) {
+	background-color: #dadbd6;
+}
+
+li span {
+	height: 30px;
+	width: 0;
+	margin-right: 20px;
+	background-color: #eacb48;
+	color: #eff0eb;
+	display: inline-block;
+	text-align: center;
+	opacity: 0;
+	transition: 0.2s linear;
+}
+
+li:hover span {
+	width: 30px;
+	opacity: 100%;
+	cursor: pointer;
+}
+
+input {
+	width: 100%;
+	text-align: left;
+	margin: 0;
+	background: #dadbd6;
+	appearance: none;
+	border: 0;
+	font-size: 1.2em;
+	color: #00a099;
+	-webkit-appearance: none;
+	padding: 15px 15px 15px 20px;
+	box-sizing: border-box;
+}
+
+::-webkit-input-placeholder {
+	text-align: left;
+	font-family: 'Baloo Chettan 2';
+	font-size: 1.2em;
+	color: #999;
+}
+
+input:focus {
+	background: #eff0eb;
+	outline: none;
+	box-shadow: inset 0 -2px 0 #00a099;
+}
