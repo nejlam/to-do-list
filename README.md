@@ -1,6 +1,6 @@
 # To-do-list
 
-an app that let's you register, login and then add your to-do tasks to your list. 
+an app that lets you register, login and then add your to-do tasks to your list. 
 It is deployed on Heroku and available on the link - [To-Do List](https://to-do-list--heroku.herokuapp.com/)
 
 ## Build setup
